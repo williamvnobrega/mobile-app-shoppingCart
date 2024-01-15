@@ -26,8 +26,9 @@ addBtn.addEventListener("click", () => {
 });
 
 onValue(shoppingListInDB, function (snapshot) {
-  let itemsArray = Object.entries(snapshot.val());
-  if (snapshot.exits()) {
+  
+  if (snapshot.exists()) {
+    let itemsArray = Object.entries(snapshot.val());
     clearShoppingListEl();
 
     for (let i = 0; i < itemsArray.length; i++) {
