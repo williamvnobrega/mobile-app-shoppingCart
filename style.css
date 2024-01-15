@@ -1,12 +1,13 @@
 *{
     padding:0;
     margin:0;
+    user-select: none;
 }
 
 body{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background-color: #EEF0F4;
-    color:#432000;
+    color:#0E3247;
 }
 
 .container{
@@ -17,12 +18,12 @@ body{
 }
 
 img{
-    width: 150px;
+    width: 170px;
     margin:0 auto;
 }
 
 input{
-    color:#432000;
+    color:#0E3247;
     background-color: #DCE1EB;
     border:0;
     padding: 15px;
@@ -53,7 +54,7 @@ ul li{
 
 button{
     color: #FDFDFD;
-    background-color: #AC485A;
+    background-color: #F5B5C1;
     border:0;
     padding: 15px;
     border-radius: 8px;
@@ -64,10 +65,11 @@ button{
 }
 #add-button:hover{
     cursor: pointer;
-    background-color: #432000;
+    background-color: #113144
 }
 
 #shopping-list > li:hover{
-    background-color: #FFECC7;
+    background-color: #dd8f2179;
+    color:#FDFDFD;
     cursor: pointer;
 }
